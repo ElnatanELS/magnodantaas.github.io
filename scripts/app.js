@@ -48,6 +48,13 @@ app.controller('mainController', function($scope){
   ]
 
   $scope.ano = new Date().getFullYear();
+
+  $scope.orcamentos = [];
+
+  $scope.solicitarOrcamento = function(orcamento){
+    $scope.orcamentos.push(orcamento);
+    console.log($scope.orcamentos);
+      }
 });
 
 

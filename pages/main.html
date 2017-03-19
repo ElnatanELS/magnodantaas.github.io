@@ -5,14 +5,44 @@
   </div>
 
   <div class="divs">
+    <h1>Acadêmico</h1>
+    <ul>
+      <li ng-repeat = "informacao in academico" ><b>{{informacao.data}}</b> {{informacao.formacao}}</li>
+    </ul>
+  </div>
+
+  <div class="divs">
     <h1>Experiência</h1>
     <li ng-repeat="linha in experiencia">{{linha}}</li>
   </div>
 
   <div class="divs">
-    <h1>Acadêmico</h1>
-    <ul>
-      <li ng-repeat = "informacao in academico" ><b>{{informacao.data}}</b> {{informacao.formacao}}</li>
-    </ul>
+    <h1>Solicitações de Orçamento</h1>
+    <div>
+      <form>
+        <label>Título</label>
+        <input type="text" name="titulo" ng-model="orcamento.titulo"><br><br>
+        <label>Contatos</label>
+        <input type="text" name="contatos" ng-model="orcamento.contato"><br><br>
+        <label>Descrição</label>
+        <input type="text" name="descricao" ng-model="orcamento.descricao">
+        <br><br>
+        <button ng-click="solicitarOrcamento(orcamento)">Solicitar</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="divs">
+    <h1>Orçamentos</h1>
+    <div class="content">
+      <ul>
+        <ul ng-repeat="orcamento in orcamentos"></ul>
+        <span>{{orcamento.titulo}}</span>
+        <span>{{orcamento.contatos}}</span>
+        <span>{{orcamento.descricao}}</span>
+      </ul>
+    </div>
   </div>
 </section>
