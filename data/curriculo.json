@@ -1,0 +1,28 @@
+{
+   "resumo": [
+     "Graduando do 4º Período de Sistemas de Informação pela Unifacisa.",
+     "Desenvolvedor das Linguagens Java, Html5, CSS."
+   ],
+   "academico": [
+      {
+         "data": "(2015 - Presente)",
+         "formacao": "Unifacisa - Sistemas de Informação"
+      },
+      {
+         "data": "(2009 - Interrompido)",
+         "formacao": "UFCG - Engenharia de Biotecnologia e Bioprocessos"
+      },
+      {
+         "data": "(2006 - 2008)",
+         "formacao": "Colégio Djanira Tavares - Ensino Médio"
+      }
+   ],
+   "experiencia": [
+      {
+         "cargo": "(Março/2017 - Presente) Monitor da disciplina de Práticas de programação"
+      },
+      {
+         "cargo": "(Agosto/2016 - Dezembro/2016) Monitor da disciplina de Probabilidade e Estatística"
+      }
+   ]
+}

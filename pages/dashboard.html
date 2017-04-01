@@ -1,7 +1,14 @@
-<section>
+<section >
   <div class="divs">
-    <h1>dashboard</h1>
-    <li>jkfdfajadsjdsldsak</li>
+    <h1>Orçamentos</h1>
+    <div class="content">
+      <ol>
+        <li ng-repeat="orcamento in orcamentos">
+        <span>{{orcamento.titulo}}</span>
+        <span>{{orcamento.contato}}</span>
+        <span>{{orcamento.descricao}}</span>
+        </li>
+      </ol>
+    </div>
   </div>
-
 </section>

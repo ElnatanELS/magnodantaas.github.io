@@ -10,22 +10,22 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
-  <body ng-controller = "mainController">
+  <body ng-controller="bodyController">
 
     <header>
-      <img class="profile-picture" ng-src="{{foto}}">
-      <h1>{{nome}}</h1>
-      <h3>{{cargo}}</h3>
-      <h4 id="telefone">Telefone: <a href="tel:83996193200">{{telefone}}</a></h4>
+      <img class="profile-picture" ng-src="{{eu.foto}}">
+      <h1>{{eu.nome}}</h1>
+      <h3>{{eu.cargo}}</h3>
+      <h4 id="telefone">Telefone: <a href="tel:83996193200">{{eu.telefone}}</a></h4>
       <ul class="links">
-        <li ng-repeat="redeSocial in links"><a ng-href="{{redeSocial.link}}"><img ng-src="{{redeSocial.foto}}"></a></li>
+        <li ng-repeat="redeSocial in eu.links"><a ng-href="{{redeSocial.link}}"><img ng-src="{{redeSocial.foto}}"></a></li>
       </ul>
     </header>
 
     <ng-view></ng-view>
 
     <footer>
-      Copyright &copy; {{nome}} - {{ano}}
+      Copyright &copy; {{eu.nome}} - {{ano}}
     </footer>
 
     <!-- importações de bibliotecas -->
@@ -33,9 +33,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.js"></script>
+
     <!-- scripts -->
     <script src="scripts/app.js"></script>
     <script src="scripts/app.config.js"></script>
+    <script src="scripts/app.service.js"></script>
+    <script src="scripts/app.factories.js"></script>
+    <script src="scripts/app.controllers.js"></script>
 
   </body>
 
