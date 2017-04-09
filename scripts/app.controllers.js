@@ -22,7 +22,7 @@ app.controller('bodyController', function($scope) {
             },
             {
                 foto: 'images/icon-instagram.png',
-                link: 'https://www.instagram.com/magnomdantas/'
+                link: 'app://www.instagram.com/magnomdantas/'
             }
         ]
 
