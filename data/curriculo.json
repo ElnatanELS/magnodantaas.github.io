@@ -5,25 +5,28 @@
     ],
     "academico": [{
             "data": "(2015 - Presente)",
-            "formacao": "Unifacisa - Sistemas de Informação."
+            "formacao": " - Unifacisa - Sistemas de Informação."
         },
         {
             "data": "(2009 - Interrompido)",
-            "formacao": "UFCG - Engenharia de Biotecnologia e Bioprocessos."
+            "formacao": " - UFCG - Engenharia de Biotecnologia e Bioprocessos."
         },
         {
             "data": "(2006 - 2008)",
-            "formacao": "Colégio Djanira Tavares - Ensino Médio."
+            "formacao": " - Colégio Djanira Tavares - Ensino Médio."
         }
     ],
     "experiencia": [{
-            "cargo": "(Abril/2017 - Presente) - Estagiário do LTI na Unifacisa."
+            "data": "(Abril/2017 - Presente)",
+            "cargo": " - Estagiário do LTI na Unifacisa."
         },
         {
-            "cargo": "(Março/2017 - Presente) Monitor da disciplina de Práticas de programação."
+            "data": "(Abril/2017 - Presente)",
+            "cargo": " - Monitor da disciplina de Práticas de programação."
         },
         {
-            "cargo": "(Agosto/2016 - Dezembro/2016) Monitor da disciplina de Probabilidade e Estatística."
+            "data": "(Agosto/2016 - Dezembro/2016)",
+            "cargo": " - Monitor da disciplina de Probabilidade e Estatística."
         }
     ]
 }
