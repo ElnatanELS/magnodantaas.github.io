@@ -41,12 +41,12 @@ app.controller('mainController', function($scope, MainService) {
 
 
 
-    $scope.solicitarOrcamento = function() {
-        MainService.orcamentos.push($scope.orcamento);
-        $scope.orcamento = {};
-    }
-});
+    //     $scope.solicitarOrcamento = function() {
+    //         MainService.orcamentos.push($scope.orcamento);
+    //         $scope.orcamento = {};
+    //     }
+    // });
 
-app.controller('DashboardController', function($scope, MainService) {
-    $scope.orcamentos = MainService.orcamentos;
+    // app.controller('DashboardController', function($scope, MainService) {
+    //     $scope.orcamentos = MainService.orcamentos;
 });

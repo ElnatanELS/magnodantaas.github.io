@@ -1,26 +1,26 @@
 <section>
-  <div class="divs">
-    <h1>Resumo</h1>
-    <ul>
-      <li ng-repeat="linha in curriculo.resumo">{{linha}}</li>
-    </ul>
-  </div>
+    <div class="divs">
+        <h1>Resumo</h1>
+        <ul>
+            <li ng-repeat="linha in curriculo.resumo">{{linha}}</li>
+        </ul>
+    </div>
 
-  <div class="divs">
-    <h1>Acadêmico</h1>
-    <ul>
-      <li ng-repeat = "informacao in curriculo.academico" ><b>{{informacao.data}}</b> {{informacao.formacao}}</li>
-    </ul>
-  </div>
+    <div class="divs">
+        <h1>Acadêmico</h1>
+        <ul>
+            <li ng-repeat="informacao in curriculo.academico"><b>{{informacao.data}}</b> {{informacao.formacao}}</li>
+        </ul>
+    </div>
 
-  <div class="divs">
-    <h1>Experiência</h1>
-    <ul>
-      <li ng-repeat="linha in curriculo.experiencia">{{linha.cargo}}</li>
-    </ul>
-  </div>
+    <div class="divs">
+        <h1>Experiência</h1>
+        <ul>
+            <li ng-repeat="linha in curriculo.experiencia">{{linha.cargo}}</li>
+        </ul>
+    </div>
 
-  <div class="divs">
+    <!--<div class="divs">
     <h1>Solicitações de Orçamento</h1><br>
     <div>
       <form>
@@ -37,5 +37,5 @@
         </div>
       </form>
     </div>
-  </div>
+  </div>-->
 </section>
